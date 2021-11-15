@@ -1,0 +1,12 @@
+from importing_dataset import data
+print(data)
+print(data.head())
+print(data.shape)
+print(data.index)
+print(data.columns)
+print(data.dtypes)
+print(data['Weather'].unique())
+print(data.nunique())
+print(data.count())
+print(data['Weather'].value_counts())
+print(data.info())
